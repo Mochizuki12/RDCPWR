@@ -503,6 +503,10 @@
     [
       "7e11ad9c-6cdf-420a-85ee-4145fdfc2616",
       "STM32F103"
+    ],
+    [
+      "6a93618c-3932-4643-922b-919eb2d9df4b",
+      "EMS"
     ]
   ],
   "text_variables": {}

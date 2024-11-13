@@ -626,7 +626,7 @@
   (symbol (lib_id "Device:LED") (at 83.82 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c89e607-98fc-4c07-90e0-7bb6baa2845e)
-    (property "Reference" "D5" (at 81.28 79.0575 90)
+    (property "Reference" "D3" (at 81.28 79.0575 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED" (at 81.28 81.5975 90)
@@ -643,10 +643,10 @@
     (instances
       (project "schematic_PWRcutoff"
         (path "/9e89b938-308a-42c1-b814-ac47b1ea682c/41c12bc5-ee22-4bb8-97ee-b610ccf60040"
-          (reference "D5") (unit 1)
+          (reference "D3") (unit 1)
         )
         (path "/9e89b938-308a-42c1-b814-ac47b1ea682c/58bca59a-b17a-426a-980f-f68acd7ebb24"
-          (reference "D7") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -690,7 +690,7 @@
   (symbol (lib_id "Device:R") (at 67.31 97.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f478146-7139-46f1-8292-77634b3e7b54)
-    (property "Reference" "R2" (at 67.31 91.44 90)
+    (property "Reference" "R6" (at 67.31 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 67.31 93.98 90)
@@ -706,9 +706,6 @@
     (pin "1" (uuid e63b5b6d-419f-402a-b836-fcd811d3aab7))
     (instances
       (project "schematic_PWRcutoff"
-        (path "/9e89b938-308a-42c1-b814-ac47b1ea682c"
-          (reference "R2") (unit 1)
-        )
         (path "/9e89b938-308a-42c1-b814-ac47b1ea682c/41c12bc5-ee22-4bb8-97ee-b610ccf60040"
           (reference "R6") (unit 1)
         )
@@ -722,7 +719,7 @@
   (symbol (lib_id "Device:R") (at 74.93 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aaa13a5a-2b24-4900-94a8-7554c8869920)
-    (property "Reference" "R1" (at 77.47 101.6 0)
+    (property "Reference" "R7" (at 77.47 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 77.47 104.14 0)
@@ -738,9 +735,6 @@
     (pin "2" (uuid 5f875ccd-6875-47a5-bbca-3dc6e61fe81d))
     (instances
       (project "schematic_PWRcutoff"
-        (path "/9e89b938-308a-42c1-b814-ac47b1ea682c"
-          (reference "R1") (unit 1)
-        )
         (path "/9e89b938-308a-42c1-b814-ac47b1ea682c/41c12bc5-ee22-4bb8-97ee-b610ccf60040"
           (reference "R7") (unit 1)
         )
@@ -754,7 +748,7 @@
   (symbol (lib_id "Device:R") (at 83.82 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4dacc5f-7060-4593-bd07-9068017105f7)
-    (property "Reference" "R1" (at 86.36 66.04 0)
+    (property "Reference" "R8" (at 86.36 66.04 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 86.36 68.58 0)
@@ -770,14 +764,11 @@
     (pin "2" (uuid ea3a87a0-b110-4142-baf8-56371382a41d))
     (instances
       (project "schematic_PWRcutoff"
-        (path "/9e89b938-308a-42c1-b814-ac47b1ea682c"
-          (reference "R1") (unit 1)
-        )
         (path "/9e89b938-308a-42c1-b814-ac47b1ea682c/41c12bc5-ee22-4bb8-97ee-b610ccf60040"
-          (reference "R5") (unit 1)
+          (reference "R8") (unit 1)
         )
         (path "/9e89b938-308a-42c1-b814-ac47b1ea682c/58bca59a-b17a-426a-980f-f68acd7ebb24"
-          (reference "R8") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -786,7 +777,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 81.28 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9b48ca1-bb4f-4417-868b-01b172f93d35)
-    (property "Reference" "Q1" (at 87.63 96.52 0)
+    (property "Reference" "Q2" (at 87.63 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_NMOS_GSD" (at 87.63 99.06 0)
@@ -804,10 +795,10 @@
     (instances
       (project "schematic_PWRcutoff"
         (path "/9e89b938-308a-42c1-b814-ac47b1ea682c/41c12bc5-ee22-4bb8-97ee-b610ccf60040"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
         (path "/9e89b938-308a-42c1-b814-ac47b1ea682c/58bca59a-b17a-426a-980f-f68acd7ebb24"
-          (reference "Q2") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
