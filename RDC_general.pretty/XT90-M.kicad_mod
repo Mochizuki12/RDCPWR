@@ -53,6 +53,6 @@
     (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 14ac990e-b01f-44b0-a21d-81c456958f35))
   (fp_line (start 10.425 -1.175) (end 10.425 -11.075)
     (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp f0c8213f-177a-4639-bf60-911b4c933db8))
-  (pad "1" thru_hole roundrect (at -5.475 -6.125) (size 6 6) (drill 4.5) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp aafbec85-f668-45f3-8252-d087b0c54ea2))
-  (pad "2" thru_hole circle (at 5.525 -6.125) (size 6 6) (drill 4.5) (layers "*.Cu" "*.Mask") (tstamp c4e8a304-4698-4884-97b7-56ed266a1d7b))
+  (pad "1" thru_hole roundrect (at -5.475 -6.125) (size 7.5 7.5) (drill 5.5) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp aafbec85-f668-45f3-8252-d087b0c54ea2))
+  (pad "2" thru_hole circle (at 5.525 -6.125) (size 7.5 7.5) (drill 5.5) (layers "*.Cu" "*.Mask") (tstamp c4e8a304-4698-4884-97b7-56ed266a1d7b))
 )
